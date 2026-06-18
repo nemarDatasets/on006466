@@ -1,30 +1,96 @@
 {
   "version": "2.0",
-  "dataset_id": "on006466",
-  "source": "openneuro",
-  "source_id": "ds006466",
+  "pipeline_stage": "enriched",
   "title": "HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Andy Jeesu Kim": {},
+    "Andy Jeesu Kim": {
+      "orcid": "0000-0003-1124-0213"
+    },
     "Santiago Morales": {},
     "Joshua Senior": {},
     "Mara Mather": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006466.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2025.10.02.680040",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006466",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006466",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1186/s13063-024-08036-4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from older adults during resting state and auditory oddball task conditions. Participants completed both passive and active oddball tasks under two conditions: a control condition and an arousal condition (threat of unpredictable shock). The dataset includes resting state recordings with eyes open and closed, providing a comprehensive resource for investigating age-related changes in neural responses to auditory stimuli and locus coeruleus-noradrenaline system function under stress.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "passive oddball task"
+    },
+    {
+      "term": "active oddball task"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "older adults"
+    },
+    {
+      "term": "arousal"
+    },
+    {
+      "term": "threat-induced arousal"
+    },
+    {
+      "term": "locus coeruleus"
+    },
+    {
+      "term": "noradrenaline system"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute on Aging",
+      "award_number": "R01AG057667"
+    }
+  ],
+  "source_hash": "f361ddd9b95dbb595df3c5d7c04a2eb4de6c5133635dedf7327d68f774cd8256"
 }
