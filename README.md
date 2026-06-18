@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006466-blue)](https://doi.org/10.82901/nemar.on006466)
+
 # Older Adult Resting State and Auditory Oddball Task EEG Data
 
 ## What is included
