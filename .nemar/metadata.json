@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data",
+  "description": "This dataset comprises resting state and auditory oddball task electroencephalography (EEG) recordings from older adults under two experimental conditions: control and threat-of-shock arousal. Participants completed eyes-open and eyes-closed resting periods, as well as passive and active auditory oddball tasks in both conditions. The data supports investigation of locus coeruleus-noradrenaline system function and attention-related neural dynamics in aging.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +13,42 @@
     "Joshua Senior": {},
     "Mara Mather": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006466.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "older adults"
+    },
+    {
+      "term": "aging"
+    },
+    {
+      "term": "locus coeruleus"
+    },
+    {
+      "term": "arousal"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "threat-of-shock"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "noradrenergic"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2025.10.02.680040",
       "identifier_type": "DOI",
@@ -37,53 +68,11 @@
       "identifier": "10.1186/s13063-024-08036-4",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from older adults during resting state and auditory oddball task conditions. Participants completed both passive and active oddball tasks under two conditions: a control condition and an arousal condition (threat of unpredictable shock). The dataset includes resting state recordings with eyes open and closed, providing a comprehensive resource for investigating age-related changes in neural responses to auditory stimuli and locus coeruleus-noradrenaline system function under stress.",
-  "keywords": [
-    {
-      "term": "EEG"
     },
     {
-      "term": "auditory oddball task"
-    },
-    {
-      "term": "passive oddball task"
-    },
-    {
-      "term": "active oddball task"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "older adults"
-    },
-    {
-      "term": "arousal"
-    },
-    {
-      "term": "threat-induced arousal"
-    },
-    {
-      "term": "locus coeruleus"
-    },
-    {
-      "term": "noradrenaline system"
+      "identifier": "10.18112/openneuro.ds006466.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -92,5 +81,21 @@
       "award_number": "R01AG057667"
     }
   ],
-  "source_hash": "f361ddd9b95dbb595df3c5d7c04a2eb4de6c5133635dedf7327d68f774cd8256"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "126.1 GB (2515 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "methods_description": "EEG data were collected during resting state (eyes open and closed, 5 minutes each) and auditory oddball tasks (passive and active variants) under control and threat-of-shock conditions. The auditory oddball paradigm included standard tones, target tones, and distractor tones, with active task variants requiring manual button responses.",
+  "source_hash": "7b65dd561bafe22fcb2450448c6561e5a667ef84df3d69907e3007b1e4f84a8a"
 }
