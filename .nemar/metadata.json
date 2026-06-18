@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data",
-  "description": "This dataset comprises resting state and auditory oddball task electroencephalography (EEG) recordings from older adults under two experimental conditions: control and threat-of-shock arousal. Participants completed eyes-open and eyes-closed resting periods, as well as passive and active auditory oddball tasks in both conditions. The data supports investigation of locus coeruleus-noradrenaline system function and attention-related neural dynamics in aging.",
+  "description": "This dataset comprises resting-state and auditory oddball task electroencephalography (EEG) recordings from older adults under two experimental conditions: control and threat-of-shock arousal. Participants completed eyes-open and eyes-closed resting periods, as well as passive and active auditory oddball tasks with standard, target, and distractor tones. The data were collected as part of the HeartBEAM study investigating locus coeruleus-noradrenaline system function and its relationship to attention and memory in aging.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,25 +27,22 @@
       "term": "older adults"
     },
     {
-      "term": "aging"
-    },
-    {
       "term": "locus coeruleus"
     },
     {
       "term": "arousal"
     },
     {
+      "term": "threat stress"
+    },
+    {
       "term": "attention"
     },
     {
-      "term": "threat-of-shock"
+      "term": "memory"
     },
     {
-      "term": "pupillometry"
-    },
-    {
-      "term": "noradrenergic"
+      "term": "noradrenaline"
     }
   ],
   "related_identifiers": [
@@ -96,6 +93,6 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "EEG data were collected during resting state (eyes open and closed, 5 minutes each) and auditory oddball tasks (passive and active variants) under control and threat-of-shock conditions. The auditory oddball paradigm included standard tones, target tones, and distractor tones, with active task variants requiring manual button responses.",
+  "methods_description": "EEG data were acquired during resting-state conditions (eyes open and eyes closed, 5 minutes each) and auditory oddball tasks (passive and active variants) under control and threat-of-shock conditions. Event markers indicate task phases, stimulus types (standard, target, distractor tones), and behavioral responses.",
   "source_hash": "7b65dd561bafe22fcb2450448c6561e5a667ef84df3d69907e3007b1e4f84a8a"
 }
