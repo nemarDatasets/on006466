@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data",
-  "description": "This dataset comprises resting-state and auditory oddball task electroencephalography (EEG) recordings from older adults under two experimental conditions: control and threat-of-shock arousal. Participants completed eyes-open and eyes-closed resting periods, as well as passive and active auditory oddball tasks with standard, target, and distractor tones. The data were collected as part of the HeartBEAM study investigating locus coeruleus-noradrenaline system function and its relationship to attention and memory in aging.",
+  "description": "EEG recordings from older adults during eyes-open and eyes-closed resting state and during passive and active auditory oddball tasks. Each participant was recorded under a control condition and an arousal condition induced by the threat of unpredictable shock. The data come from the HeartBEAM study and support research on locus coeruleus-noradrenaline system activity and arousal in aging.",
+  "methods_description": "Five-minute eyes-open and eyes-closed resting state recordings and passive and active auditory oddball tasks (standard, target and distractor tones) were collected in a control condition and a shock-threat condition. Event markers code the task, condition, and trial phase.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,13 +19,13 @@
       "term": "EEG"
     },
     {
-      "term": "auditory oddball task"
-    },
-    {
       "term": "resting state"
     },
     {
-      "term": "older adults"
+      "term": "auditory oddball"
+    },
+    {
+      "term": "aging"
     },
     {
       "term": "locus coeruleus"
@@ -33,23 +34,14 @@
       "term": "arousal"
     },
     {
-      "term": "threat stress"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "memory"
-    },
-    {
-      "term": "noradrenaline"
+      "term": "threat of shock"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2025.10.02.680040",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on006466",
@@ -57,19 +49,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006466",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1186/s13063-024-08036-4",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "10.18112/openneuro.ds006466.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006466",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -83,7 +70,7 @@
     "eeg"
   ],
   "sizes": [
-    "126.1 GB (2515 files)"
+    "117 GB (2515 files)"
   ],
   "formats": [
     ".fdt",
@@ -93,6 +80,5 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "EEG data were acquired during resting-state conditions (eyes open and eyes closed, 5 minutes each) and auditory oddball tasks (passive and active variants) under control and threat-of-shock conditions. Event markers indicate task phases, stimulus types (standard, target, distractor tones), and behavioral responses.",
   "source_hash": "7b65dd561bafe22fcb2450448c6561e5a667ef84df3d69907e3007b1e4f84a8a"
 }
